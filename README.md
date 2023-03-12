@@ -3,33 +3,25 @@
 Room/Machine Manager is a Web Application written in Laravel. The main goal of the app is to ease up the 
 process of managing Room and Machines by creating a dynamic solution to resources manipulation
 
-## Room/Machine Manager Analysis
-
-
-
 ## How to deploy project locally
 
 To work with the Project, you will need to install : 
 - **[PHP](https://www.php.net/)**
 - **[Composer](https://getcomposer.org/)**
 - **[Laravel](https://laravel.com/)**
-- **[Apache](https://getcomposer.org/)**
+- **[Apache](https://httpd.apache.org/)**
 
-### Premium Partners
+### Set-up the Database
+- Enter the .env file in the base of the project
+- Edit the database environment variables
+    DB_DATABASE=your_database
+    DB_USERNAME=your_username
+    DB_PASSWORD=your_password
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- Run the migrations
+```
+php artisan migrate
+```
 
 ## Contributing
 

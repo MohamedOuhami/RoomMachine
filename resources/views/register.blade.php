@@ -7,11 +7,11 @@
     <title>Register</title>
 </head>
 
-<body class="bg-light">
+<body class="bg-white">
     {{-- Adding the header component --}}
     <x-Header />
     <div>
-        <div class="row align-items-center" style="height: 160vh;">
+        <div class="d-flex align-items-center justify-content-center bg-white" style="height:90vh">
             <div class="mx-auto col-10 col-md-8 col-lg-6">
                 <form action="{{ route('register') }}" method="post" class="bg-white p-5 ">
                     @csrf

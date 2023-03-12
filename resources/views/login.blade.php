@@ -7,12 +7,12 @@
     <title>Login</title>
 </head>
 
-<body class="bg-light">
+<body class="bg-white">
     {{-- Adding the header component --}}
     <x-Header />
 
     <div>
-        <div class="row align-items-center justify-content-center bg-white" style="height: 120vh;">
+        <div class="d-flex align-items-center justify-content-center bg-white" style="height:70vh">
           <div class="mx-auto col-10 col-md-8 col-lg-6">
               <div class="bg-danger w-50 text-center w-100 text-white border-red border-primary">
                 <p class="m-3">

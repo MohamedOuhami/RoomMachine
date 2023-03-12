@@ -25,17 +25,18 @@ php artisan migrate
 
 ### Launch the app
 
+- Start your MySQL with the XAMPP app
 - Open the terminal in your project's folder
 - Launch the app server by typing 
 ```
 php artisan serve
 ```
+
 - Open your favorite browser
 - Copy the URL that you'll see in the CLI : 
 ```
 Server running on [http://127.0.0.1:8000]. 
 ```
-- Start your MySQL with the XAMPP app
 - Paste It on your browser and hit enter
 
 Now, you're set up to start using the application

@@ -9,7 +9,11 @@ process of managing Room and Machines by creating a dynamic solution to resource
 
 ## How to deploy project locally
 
-To install 
+To work with the Project, you will need to install : 
+- **[PHP](https://www.php.net/)**
+- **[Composer](https://getcomposer.org/)**
+- **[Laravel](https://laravel.com/)**
+- **[Apache](https://getcomposer.org/)**
 
 ### Premium Partners
 

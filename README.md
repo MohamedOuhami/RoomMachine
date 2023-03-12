@@ -9,7 +9,7 @@ To work with the Project, you will need to install :
 - **[PHP](https://www.php.net/)**
 - **[Composer](https://getcomposer.org/)**
 - **[Laravel](https://laravel.com/)**
-- **[Apache](https://httpd.apache.org/)**
+- **[XAMPP](https://www.apachefriends.org/fr/index.html)**
 
 ### Set-up the Database
 - Enter the .env file in the base of the project
